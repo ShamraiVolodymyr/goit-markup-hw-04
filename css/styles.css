@@ -142,9 +142,10 @@ ul {
 }
 
 .header-btn::before {
-  content: url("../images/posthover.svg");
+  content: url("../images/envelope.svg");
   margin-right: 10px;
   background-position: center;
+  fill: currentColor;
 }
 
 .header-tel {
@@ -162,6 +163,7 @@ ul {
   content: url("../images/telhover.svg");
   margin-right: 10px;
   background-position: center;
+  fill: currentColor;
 }
 
 /*---------------------HERO---------------------*/
@@ -617,9 +619,10 @@ ul {
 }
 
 .port-header-btn::before {
-  content: url("../images/posthover.svg");
+  content: url("../images/envelope.svg");
   margin-right: 10px;
   background-position: center;
+  fill: currentColor;
 }
 
 .port-header-tel:hover,
@@ -636,6 +639,7 @@ ul {
   content: url("../images/telhover.svg");
   margin-right: 10px;
   background-position: center;
+  fill: currentColor;
 }
 
 .port-header-btn {
