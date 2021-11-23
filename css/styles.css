@@ -119,6 +119,9 @@ ul {
   color: var(--accent-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 10px;
+  height: 16px;
+  margin-left: 10px;
 }
 
 .header-tel:hover,
@@ -126,6 +129,8 @@ ul {
   color: var(--accent-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 10px;
+  height: 16px;
 }
 
 .header-btn {
@@ -135,6 +140,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-btn-color);
+  margin-left: 10px;
 }
 
 .header-btn:active {
@@ -142,8 +148,7 @@ ul {
 }
 
 .header-btn::before {
-  content: url("../images/envelope.svg");
-  margin-right: 10px;
+  content: "";
   background-position: center;
   fill: currentColor;
 }
@@ -155,13 +160,12 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-btn-color);
-
-  margin-left: 50px;
 }
 
 .header-tel::before {
-  content: url("../images/telhover.svg");
+  content: "";
   margin-right: 10px;
+  margin-left: 50px;
   background-position: center;
   fill: currentColor;
 }
@@ -634,7 +638,6 @@ ul {
 }
 
 .port-header-btn::before {
-  content: url("../images/envelope.svg");
   margin-right: 10px;
   background-position: center;
   fill: currentColor;
@@ -651,7 +654,6 @@ ul {
 }
 
 .port-header-tel::before {
-  content: url("../images/telhover.svg");
   margin-right: 10px;
   background-position: center;
   fill: currentColor;
@@ -664,6 +666,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-btn-color);
+  margin-right: 10px;
 
   padding-top: 32px;
   padding-bottom: 32px;
