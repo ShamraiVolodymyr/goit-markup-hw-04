@@ -168,6 +168,9 @@ ul {
 
 /*---------------------HERO---------------------*/
 .hero {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -179,6 +182,7 @@ ul {
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .section {
@@ -250,7 +254,6 @@ ul {
 
   min-width: 200px;
   min-height: 50px;
-
   border: 1px solid var(--logo-color);
   border-radius: 4px;
   margin-top: auto;
@@ -258,7 +261,7 @@ ul {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--second-title-color);
+  border: 1px solid var(--logo-color);
 }
 
 .hero-list {
@@ -442,6 +445,11 @@ ul {
   fill: currentColor;
 }
 
+.client-icon:hover,
+.client-icon:focus {
+  color: var(--accent-color);
+}
+
 .client-link:hover,
 .client-link:focus {
   border-color: var(--accent-color);
@@ -450,6 +458,10 @@ ul {
 /*----------------------FOOTER-------------------*/
 
 .footer {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -764,6 +776,10 @@ ul {
 /*----------------PORT-FOOTER--------------------*/
 
 .port-footer {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -821,6 +837,10 @@ ul {
 }
 
 .port-connect-footer-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 61px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.19;
