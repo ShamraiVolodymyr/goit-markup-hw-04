@@ -122,6 +122,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-btn-color);
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -133,10 +134,6 @@ ul {
   padding-bottom: 32px;
 }
 
-.header-btn:active {
-  color: var(--accent-color);
-}
-
 .nav-item:hover,
 .nav-item:focus {
   fill: var(--accent-color);
@@ -145,6 +142,7 @@ ul {
 .header-icon {
   margin-right: 10px;
 }
+
 .header-icon:hover,
 .header-icon:focus {
   fill: var(--accent-color);
@@ -169,6 +167,7 @@ ul {
   width: 10px;
   height: 16px;
 }
+
 .header-tel::before {
   content: "";
   margin-right: 10px;
@@ -606,6 +605,15 @@ ul {
   color: var(--accent-color);
 }
 
+.port-header-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.port-header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .port-header-nav {
   display: flex;
   text-align: center;
@@ -623,48 +631,9 @@ ul {
   padding-bottom: 32px;
 }
 
-.port-header-list {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
 .port-header-link:hover,
 .port-header-link:focus {
   color: var(--accent-color);
-}
-
-.port-header-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.port-header-btn:hover,
-.port-header-btn:focus {
-  color: var(--accent-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.port-header-btn::before {
-  margin-right: 10px;
-  background-position: center;
-  fill: currentColor;
-}
-
-.port-header-tel:hover,
-.port-header-tel:focus {
-  color: var(--accent-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.port-header-tel {
-  margin-left: 50px;
-}
-
-.port-header-tel::before {
-  margin-right: 10px;
-  background-position: center;
-  fill: currentColor;
 }
 
 .port-header-btn {
@@ -674,14 +643,30 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-btn-color);
-  margin-right: 10px;
 
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.port-header-btn:active {
+.port-header-btn:hover,
+.port-header-btn:focus {
   color: var(--accent-color);
+}
+
+.port-header-icon:hover,
+.port-header-icon:focus {
+  fill: var(--accent-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.port-header-icon {
+  margin-right: 10px;
+}
+
+.port-header-icon,
+.port-header-icon {
+  fill: var(--main-text-color);
 }
 
 .port-header-tel {
@@ -691,6 +676,25 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-btn-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.port-header-tel:hover,
+.port-header-tel:focus {
+  color: var(--accent-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 16px;
+  height: 12px;
+}
+
+.port-header-tel::before {
+  content: "";
+  margin-right: 10px;
+  margin-left: 50px;
+  background-position: center;
+  fill: currentColor;
 }
 
 /*--------------PORT-BUTTON---------------------*/
