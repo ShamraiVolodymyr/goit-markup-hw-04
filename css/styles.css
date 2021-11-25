@@ -447,7 +447,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--main-btn-color);
+  color: #afb1b8;
 }
 .client-icon {
   fill: #afb1b8;
