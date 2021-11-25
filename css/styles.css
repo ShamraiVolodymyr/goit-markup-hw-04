@@ -127,9 +127,8 @@ ul {
 .header-btn:hover,
 .header-btn:focus {
   color: var(--accent-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
+
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -165,10 +164,6 @@ ul {
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-  width: 10px;
-  height: 16px;
 }
 
 /*---------------------HERO---------------------*/
@@ -233,7 +228,11 @@ ul {
 .about-title {
   text-align: center;
 }
+.section-about {
+  padding-bottom: 94px;
+}
 
+/* --------------------HERO-------------------- */
 .document-title {
   font-family: inherit;
   font-weight: 900;
@@ -401,7 +400,7 @@ ul {
 
 .command-social-link:hover,
 .command-social-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--main-title-color);
 }
 
@@ -451,12 +450,12 @@ ul {
   color: var(--main-btn-color);
 }
 .client-icon {
-  fill: currentColor;
+  fill: #afb1b8;
 }
 
 .client-icon:hover,
 .client-icon:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .client-link:hover,
@@ -474,7 +473,11 @@ ul {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
   display: flex;
+  align-items: center;
   align-items: baseline;
 }
 
@@ -496,10 +499,6 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-}
-
-.footer-logo:focus {
-  color: var(--accent-color);
 }
 
 .footer-link {
@@ -568,7 +567,7 @@ ul {
 
 .connect-footer-link:hover,
 .connect-footer-link:focus {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
   color: var(--main-title-color);
 }
 
