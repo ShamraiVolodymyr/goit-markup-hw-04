@@ -45,6 +45,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .header-container {
@@ -584,11 +585,19 @@ ul {
 
 /*--------------PORT-BUTTON---------------------*/
 /*--------------PORT-ABOUT-----------------------*/
+.port-text {
+  visibility: hidden;
+}
+
 .port-button {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+}
+
+.port-list-btn {
+  display: flex;
 }
 
 .port-btn {
@@ -608,9 +617,6 @@ ul {
   border: var(--second-text-color);
   border-radius: 4px;
 }
-.port-list-btn {
-  display: flex;
-}
 
 .port-btn:hover,
 .port-btn:focus {
@@ -626,10 +632,6 @@ ul {
 }
 
 /*-----------POTRFOLIO-------------------------*/
-
-.port-text {
-  visibility: hidden;
-}
 
 .port-list-container {
   display: flex;
